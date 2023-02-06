@@ -1,19 +1,19 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+import React, { useRef } from "react"
+import emailjs from "@emailjs/browser"
+import { toast } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 const Contact = () => {
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_zayiez9",
+        "template_9iw1n8e",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "OYLIDBQlmFkeOU7JZ"
       )
       .then(
         (result) => {
@@ -25,8 +25,8 @@ const Contact = () => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-          });
-          document.getElementById("myForm").reset();
+          })
+          document.getElementById("myForm").reset()
         },
         (error) => {
           toast.error("Ops Message Not Sent!", {
@@ -37,10 +37,10 @@ const Contact = () => {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-          });
+          })
         }
-      );
-  };
+      )
+  }
 
   return (
     <>
@@ -98,7 +98,7 @@ const Contact = () => {
         </div>
       </form>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
