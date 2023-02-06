@@ -16,7 +16,7 @@ const switchThemeColor = (isDark) => {
 }
 
 const SwitchDark = () => {
-  const [isDark, setIsDark] = useState(false)
+  const [isDark, setIsDark] = useState(true)
 
   switchThemeColor(isDark)
 
