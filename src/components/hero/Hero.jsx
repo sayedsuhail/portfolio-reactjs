@@ -34,12 +34,14 @@ const Hero = () => {
 
   useEffect(() => {
     // console.log("running...")
+    index = -1
+    // console.log("index: ", index)
     const interval = setInterval(() => {
       // console.log("name running...")
       setCursor((prevState) => !prevState)
       if (index === words.length - 1) {
         setCursor(false)
-        index = -1
+        // index = -1
         clearInterval(interval)
         return
       }
@@ -50,6 +52,7 @@ const Hero = () => {
     return () => clearInterval(interval)
   }, [])
 
+  // console.log("index: ", index)
   // end auto-writing
 
   return (
