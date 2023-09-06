@@ -6,7 +6,7 @@ const personalInfoContent = [
   { meta: "Freelance", metaInfo: "Available" },
   { meta: "phone", metaInfo: "+92-3038813846" },
   { meta: "Hours / Week", metaInfo: "30+" },
-  { meta: "Email", metaInfo: "sayed@martzon.com" },
+  { meta: "Email", metaInfo: "hi@sayed.pro" },
   { meta: "langages", metaInfo: "Urdu, English" },
 ]
 
