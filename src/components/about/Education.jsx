@@ -2,7 +2,7 @@ import React from "react"
 
 const educationContent = [
   {
-    year: "2020",
+    year: "Sep 2015 - Mar 2020",
     degree: "BACHELOR DEGREE",
     institute: "COMSATS UNIVERSITY ISLAMABAD",
     details: `Completed my bachelor degree in Software Engineering, From CUI - Abbottabad Campus.`,
